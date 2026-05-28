@@ -8,7 +8,6 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class BrowserFactory {
-
     static WebDriver driver;
 
     public static WebDriver startBrowser(String browserChoice, String url) {
