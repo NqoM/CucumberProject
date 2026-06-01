@@ -19,7 +19,7 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>7.34.3</version>
+            <version>7.0.0</version>
             <scope>compile</scope>
         </dependency>
 
@@ -27,7 +27,7 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
-            <version>7.34.3</version>
+            <version>7.0.0</version>
             <scope>compile</scope>
         </dependency>
 
@@ -51,7 +51,11 @@
             <version>1.1.0</version>
         </dependency>
 
-
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 </project>
